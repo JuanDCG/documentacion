@@ -7,7 +7,7 @@ tanto funcional como técnica, en la que se basa las pruebas de certificación
 creadas y promovidas por la `Asociación Española de Odoo`_.
 
 * **100% Open Source** (`LGPL version 3`_): Toda `la documentación está disponible en GitHub`_
-* Creada por y para la comunidad. Añade, corrige, debate y colabora en mejorar está documentación
+* Creada por y para la comunidad. Añade, corrige, debate y colabora en mejorar esta documentación !!!
 
 .. _Odoo: https://www.odoo.com
 .. _Asociación Española de Odoo: https://www.aeodoo.org
