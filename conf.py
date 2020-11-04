@@ -15,8 +15,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import guzzle_sphinx_theme
-
+# import guzzle_sphinx_theme
+import sphinx_rtd_theme
 
 
 # -- Project information -----------------------------------------------------
@@ -26,9 +26,9 @@ copyright = u'2020, AEODOO (Asociación Española de Odoo)'
 author = u'AEODOO (Asociación Española de Odoo)'
 
 # The short X.Y version
-version = u''
+version = u'0.1'
 # The full version, including alpha/beta/rc tags
-release = u''
+release = u'1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -41,7 +41,8 @@ release = u''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+    'sphinx_rtd_theme'
 ]
 autosectionlabel_prefix_document = True
 
@@ -78,18 +79,36 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
-html_theme = 'guzzle_sphinx_theme'
-
+# html_theme_path = guzzle_sphinx_theme.html_theme_path()
+# html_theme = 'guzzle_sphinx_theme'
+# html_favicon = 'favicon.ico'
+html_logo = 'aeodoo-logo.jpeg'
+html_scaled_image_link = False
+html_theme = "sphinx_rtd_theme"
+html_theme_options = {
+    'canonical_url': '',
+    'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
+    'logo_only': True,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    'style_nav_header_background': 'white',
+    # Toc options
+    'collapse_navigation': False,
+    'sticky_navigation': False,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
 
 # Register the theme as an extension to generate a sitemap.xml
-extensions.append("guzzle_sphinx_theme")
-
+# extensions.append("guzzle_sphinx_theme")
+#b40fd1
 # Guzzle theme options (see theme.conf for more information)
-html_theme_options = {
-    # Set the name of the project to appear in the sidebar
-    "project_nav_name": "AEODOO Documentacion",
-}
+# html_theme_options = {
+  # Set the name of the project to appear in the sidebar
+  #  "project_nav_name": "AEODOO Documentacion",
+# }
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

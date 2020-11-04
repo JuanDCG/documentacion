@@ -1,4 +1,4 @@
-.. _estrcutura-addons:
+.. _estrucutura-addons:
 
 ####################################
 Actualización y control de Versiones
