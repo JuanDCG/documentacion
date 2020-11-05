@@ -1,5 +1,0 @@
-.. _productos:
-
-#########
-Productos
-#########

@@ -1,6 +1,0 @@
-.. _postgresql:
-
-
-##########
-PostgreSQL
-##########
