@@ -25,6 +25,8 @@ necesaria para la búsqueda de referencias y contenidos estructurados.
 Puedes encontrar el índice completo de la documentación en el siguiente enlace:
 
 * [Índice](index.rst)
+* [Índice Funcional](funcional/indice-funcional.rst)
+* [Índice Técnico](tecnico/indice-tecnico.rst)
 
 
 ## Autores
