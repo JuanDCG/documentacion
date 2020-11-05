@@ -100,6 +100,15 @@ html_theme_options = {
     'titles_only': False
 }
 
+html_context = {
+    "display_github": True, # Integrate GitHub
+    "github_user": "aeodoo", # Username
+    "github_repo": "documentacion", # Repo name
+    "github_version": "14.0", # Version
+    "conf_py_path": "/", # Path in the checkout to the docs root
+}
+
+
 # Register the theme as an extension to generate a sitemap.xml
 
 
