@@ -15,7 +15,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-# import guzzle_sphinx_theme
 import sphinx_rtd_theme
 
 
@@ -102,13 +101,7 @@ html_theme_options = {
 }
 
 # Register the theme as an extension to generate a sitemap.xml
-# extensions.append("guzzle_sphinx_theme")
-#b40fd1
-# Guzzle theme options (see theme.conf for more information)
-# html_theme_options = {
-  # Set the name of the project to appear in the sidebar
-  #  "project_nav_name": "AEODOO Documentacion",
-# }
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
