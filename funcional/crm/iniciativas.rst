@@ -1,5 +1,0 @@
-.. _iniciativas:
-
-###########
-Iniciativas
-###########

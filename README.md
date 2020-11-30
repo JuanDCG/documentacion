@@ -1,7 +1,7 @@
 # Documentación Certificadora AEODOO
 
 
-![AEODOO Logo](aeodoo-logo.jpeg)
+![AEODOO Logo](source/_themes/imagenes/aeodoo-logo.jpeg)
 
 
 Proyecto de documentación en Español para la base de cursos y pruebas homologadas
@@ -20,13 +20,15 @@ orquestación de cursos, itinerarios, talleres, y todo tipo de acciones formativ
 No se pretende con ella hacer un manual al uso, si no documentar toda la información
 necesaria para la búsqueda de referencias y contenidos estructurados.
 
-### Índice
+### Índices
 
-Puedes encontrar el índice completo de la documentación en el siguiente enlace:
+* [Índice Funcional](source/funcional/indice-funcional.rst)
+* [Índice Técnico](source/tecnico/indice-tecnico.rst)
 
-* [Índice](index.rst)
-* [Índice Funcional](funcional/indice-funcional.rst)
-* [Índice Técnico](tecnico/indice-tecnico.rst)
+
+## Colaborar en la documentación
+
+* [Colaboración](source/tecnico/previo/colaboracion.rst)
 
 
 ## Autores

@@ -1,0 +1,4 @@
+.. _cobros:
+
+Cobros
+######
